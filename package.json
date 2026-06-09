@@ -1,0 +1,19 @@
+{
+  "name": "myco-api",
+  "version": "1.0.0",
+  "description": "Proxy API for Myco mushroom grow tracker",
+  "main": "api/claudeProxy.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Vercel builds automatically'",
+    "start": "echo 'Deployed to Vercel'"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.3",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "private": true
+}
