@@ -13,7 +13,7 @@
     "@google/generative-ai": "^0.21.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "private": true
 }
